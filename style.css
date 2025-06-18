@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.counter__body {
+    width: 350px;
+    height: 150px;
+    background-color: #000;
+    box-shadow: inset 40px 40px 60px #363636;
+    box-shadow: 2px 5px 15px #949494;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.counter__body span {
+    font-size: 3rem;
+}
+
+.counter__body .btnpad button {
+    width: 90px;
+    margin: 5px;
+    height: 35px;
+    cursor: pointer;
+    border: 1px solid #3d3d3d;
+    border-radius: 6px;
+    background-color: #0000de;
+    box-shadow: inset 10px 10px 20px #010180;
+    color: #fff;
+    font-size: .7rem;
+
+    &:active {
+        background-color: #3535ff;       
+    }
+}
